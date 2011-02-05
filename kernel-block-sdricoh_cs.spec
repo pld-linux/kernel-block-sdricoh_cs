@@ -6,7 +6,7 @@
 %define		modname	sdricoh_cs
 %define		_rel	1
 Summary:	Linux kernel module for Ricoh Bay1Controller SD Cardreaders
-Summary(pl):	Moduł jądra Linuksa dla Ricoh Bay1Controller SD Cardreaders
+Summary(pl.UTF-8):	Moduł jądra Linuksa dla Ricoh Bay1Controller SD Cardreaders
 Name:		kernel%{_alt_kernel}-block-%{modname}
 Version:	0.1.3
 Release:	%{_rel}@%{_kernel_ver_str}
@@ -30,7 +30,7 @@ Moduł jądra Linuksa dla Ricoh Bay1Controller SD Cardreaders.
 
 %package -n kernel%{_alt_kernel}-smp-block-%{modname}
 Summary:	Linux SMP kernel module for Ricoh Bay1Controller SD Cardreaders
-Summary(pl):	Moduł jądra Linuksa SMP dla Ricoh Bay1Controller SD Cardreaders
+Summary(pl.UTF-8):	Moduł jądra Linuksa SMP dla Ricoh Bay1Controller SD Cardreaders
 Release:	%{_rel}@%{_kernel_ver_str}
 Group:		Base/Kernel
 %{?with_dist_kernel:%requires_releq_kernel_smp}
