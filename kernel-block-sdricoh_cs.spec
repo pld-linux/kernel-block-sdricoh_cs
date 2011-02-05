@@ -25,7 +25,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Linux kernel module for the Ricoh Bay1Controller SD Cardreaders.
 
-%description -l pl
+%description -l pl.UTF-8
 Moduł jądra Linuksa dla Ricoh Bay1Controller SD Cardreaders.
 
 %package -n kernel%{_alt_kernel}-smp-block-%{modname}
@@ -40,7 +40,7 @@ Requires:	module-init-tools >= 3.2.2-2
 %description -n kernel%{_alt_kernel}-smp-block-%{modname}
 Linux SMP kernel module for Ricoh Bay1Controller SD Cardreaders.
 
-%description -n kernel%{_alt_kernel}-smp-block-%{modname} -l pl
+%description -n kernel%{_alt_kernel}-smp-block-%{modname} -l pl.UTF-8
 Moduł jądra Linuksa SMP dla Ricoh Bay1Controller SD Cardreaders
 
 %prep
